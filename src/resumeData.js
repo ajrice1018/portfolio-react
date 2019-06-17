@@ -15,6 +15,11 @@ let resumeData = {
         "name":"github",
         "url":"https://github.com/ajrice1018",
         "className":"fa fa-github"
+      },
+      {
+        "name": "resume",
+        "url":"images/Primary_Resume.pdf",
+        "className": "fa fa-file-text-o"
       }
     ],
   "aboutme":"Full Stack Web Developer with a STEM background and bachelor’s degrees in Chemistry and Environmental Studies with a passion for lifelong learning, for example, diving deeper into React to better understand front and backend. An effective and creative problem solver who uses these skills to tackle and solve unique user and server applications. ",
