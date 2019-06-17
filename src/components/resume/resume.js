@@ -60,39 +60,33 @@ export default  class Resume extends Component {
          </div>
 
 
-         <div className="row skill">
+        <div className="row skills">
+        <div className="twelve columns collapsed">
+          
+          <div>
+               <h1><span>Technologies</span></h1>
+            </div>
+          
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          {
+            resumeData.skills && resumeData.skills.map((item)=>{
+              return(
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    
+                      <img src={`${item.skillImg}`} className="item-img skill-img"/>
+                      
+                  </div>
+                </div>
+              )
+            })
+          }
+        </div>
+            
+      </div>
+   		</div>
 
-            {/* <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
-            </div> */}
-
-            <div className="nine columns main-col">
-
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
-   				{/* <div className="bars">
-
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
-
-   					</ul>
-
-   				</div> */}
-
-   			</div>
-
-         </div>
+         
 
       </section>
     );

@@ -48,17 +48,29 @@ let resumeData = {
   ],
   "skills":[
     {
-      "skillname":"HTML5"
+      "skillImg":"images/portfolio/css.svg"
     },
     {
-      "skillname":"CSS"
+      "skillImg":"images/portfolio/html.svg"
     },
     {
-      "skillname":"React.js"
+      "skillImg":"images/portfolio/javascript.svg"
     },
     {
-      "skillname": "Express.js"
+      "skillImg": "images/portfolio/mongodb.svg"
     },
+    {
+      "skillImg": "images/portfolio/react.svg"
+    },
+    {
+      "skillImg": "images/portfolio/redux.png"
+    },
+    {
+      "skillImg": "images/portfolio/nodejs.svg"
+    },
+    {
+      "skillImg": "images/portfolio/express.png"
+    }
   ],
   "portfolio":[
     {
