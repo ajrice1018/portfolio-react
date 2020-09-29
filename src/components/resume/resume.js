@@ -63,7 +63,7 @@ export default  class Resume extends Component {
         <div className="row skills">
         <div className="twelve columns collapsed">
           
-          <div>
+            <div>
                <h1><span>Technologies</span></h1>
             </div>
           

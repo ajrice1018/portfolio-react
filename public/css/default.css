@@ -451,6 +451,7 @@ dd { margin: 0 0 0 20px; }
 .skill-img{
    max-width: 50%;
    height: auto;
+   padding: 20px 20px;
 }
 
 img {

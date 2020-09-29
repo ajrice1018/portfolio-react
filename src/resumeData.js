@@ -18,7 +18,7 @@ let resumeData = {
       },
       {
         "name": "resume",
-        "url":"images/Primary_Resume.pdf",
+        "url":"images/Andrew_Rice_Resume_Software.pdf",
         "className": "fa fa-file-text-o"
       }
     ],
@@ -46,8 +46,8 @@ let resumeData = {
     {
       "CompanyName":"Jet City Device Repair",
       "specialization":"Director of B2B Operations",
-      "MonthOfLeaving":"Current",
-      "YearOfLeaving":"2019",
+      "MonthOfLeaving":"August 2014 -",
+      "YearOfLeaving":"September 2019",
       "Achievements":"As the B2B Depot Manger for Jet City Device Repair I've helped grow our outfit from just an idea into a full fledged division within our company that interacts with schools and small business not only offering repair services but also consulting with them on what devices they should use as they refresh their device fleets. "
     },
   ],
